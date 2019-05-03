@@ -68,7 +68,7 @@ NIMS University
 
     public boolean addStudent(Student student) throws IOException {
 
-        if(student.getName().isEmpty() || student.getRoll().isEmpty() || student.getCls().isEmpty() || student.getCgpa().isEmpty() || student.getRegistrationNumber().isEmpty() || student.getPassword().isEmpty())
+        if(student.getName().isEmpty() || student.getRoll().isEmpty() || student.getCls().isEmpty()  || student.getRegistrationNumber().isEmpty() || student.getPassword().isEmpty())
             return false;
 
         File folder = new File("src/resources/");

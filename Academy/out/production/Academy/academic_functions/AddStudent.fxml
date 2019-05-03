@@ -11,20 +11,21 @@
    <children>
       <AnchorPane prefHeight="500.0" prefWidth="700.0">
          <children>
-            <TextField fx:id="name" layoutX="226.0" layoutY="89.0" prefHeight="40.0" prefWidth="231.0" promptText="Enter name" />
-            <TextField fx:id="roll" layoutX="226.0" layoutY="150.0" prefHeight="40.0" prefWidth="231.0" promptText="Enter roll" />
-            <TextField fx:id="cls" layoutX="226.0" layoutY="209.0" prefHeight="40.0" prefWidth="231.0" promptText="Enter semester" />
+            <TextField fx:id="name" layoutX="225.0" layoutY="79.0" prefHeight="40.0" prefWidth="231.0" promptText="Enter name" />
+            <TextField fx:id="roll" layoutX="225.0" layoutY="127.0" prefHeight="40.0" prefWidth="231.0" promptText="Enter roll" />
+            <TextField fx:id="cls" layoutX="225.0" layoutY="178.0" prefHeight="40.0" prefWidth="231.0" promptText="Enter semester" />
             <Button layoutX="316.0" layoutY="401.0" mnemonicParsing="false" onAction="#setAdd" text="Add" textFill="#c92f2f">
                <font>
                   <Font name="System Bold" size="14.0" />
                </font></Button>
-            <TextField fx:id="registrationNumber" layoutX="225.0" layoutY="274.0" prefHeight="40.0" prefWidth="231.0" promptText="Enter registration number" />
+            <TextField fx:id="registrationNumber" layoutX="225.0" layoutY="286.0" prefHeight="40.0" prefWidth="231.0" promptText="Enter registration number" />
             <Button layoutX="48.0" layoutY="49.0" mnemonicParsing="false" onAction="#setBack" text="Back">
                <font>
                   <Font name="System Bold" size="14.0" />
                </font></Button>
             <PasswordField fx:id="password" layoutX="225.0" layoutY="338.0" prefHeight="40.0" prefWidth="231.0" promptText="Enter password" />
             <Label fx:id="error" alignment="CENTER" layoutX="184.0" layoutY="446.0" prefHeight="40.0" prefWidth="339.0" text="Label" />
+            <TextField fx:id="cgpa" layoutX="225.0" layoutY="230.0" prefHeight="40.0" prefWidth="231.0" promptText="Enter CGPA" />
          </children>
       </AnchorPane>
    </children>

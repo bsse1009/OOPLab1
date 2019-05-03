@@ -39,8 +39,8 @@ public class AddStudentController implements Initializable {
     public void setAdd(ActionEvent event) throws IOException {
         String name = this.name.getText();
         String roll = this.roll.getText();
-        String cls = this.cls.getText();
-        String cgpa = this.cgpa.getText();
+        String cls = this.cgpa.getText();
+        String cgpa = this.cls.getText();
         String registrationNumber = this.registrationNumber.getText();
         String password = this.password.getText();
 
